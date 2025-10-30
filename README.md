@@ -1,69 +1,98 @@
-# Prakriti_Identifier
-## **Project Description**
-* Prakriti Identifier is a React web app that helps users discover their Ayurvedic Prakriti type—Vata, Pitta, or Kapha—through a dynamic questionnaire. Each answer scores a dosha; results display the dominant type, dosha breakdown, and user’s responses. Clean, responsive UI with custom CSS.
-## **⚙️Fetures**
-* Interactive questionnaire with categorized sections
-* Real-time state management using React Hooks
-* Intelligent Prakriti analysis logic
-* Displays user’s dominant Prakriti and chosen responses
-* Clean, responsive, and user-friendly interface
-## **📂 Project Structure**
-```bash
+# 🌿 Prakriti Identifier
+
+A modern React web application to help users discover their Ayurvedic Prakriti type—**Vata**, **Pitta**, or **Kapha**—by completing an interactive questionnaire.  
+The app tallies the responses, analyzes the dominant dosha, and presents the user's Ayurvedic constitution along with a breakdown of their selections.  
+The intuitive UI is designed for clarity, responsiveness, and a seamless user experience.
+
+---
+
+## 📝 Project Description
+
+**Prakriti Identifier** guides users through a categorized questionnaire based on physical, emotional, and lifestyle traits.  
+Each answer contributes to one of the three doshas. After completion, the app displays:
+
+- The dominant Prakriti type  
+- A detailed breakdown of dosha counts  
+- The user’s selected responses  
+
+---
+
+## ⚙️ Features
+
+- 🧩 **Interactive questionnaire** categorized by trait  
+- ⚡ **Real-time state management** with React Hooks  
+- 🤖 **Intelligent Prakriti (dosha) analysis logic**  
+- 📊 **Visual display** of user’s dominant Prakriti and all choices  
+- 📱 **Clean, responsive, and user-friendly design**
+
+---
+
+## 🗂️ Project Structure
+
+```
 prakriti-identifier/
-├── public/                    # Public assets (index.html, icons, etc.)
-├── src/                       # Source files
-│   ├── App.js                 # Root application component
-│   ├── index.js               # App entry point
-│   ├── App.css                # Main app styling
-│   ├── index.css              # Global styles
-│   ├── logo.svg               # Logo asset
-│   ├── reportWebVitals.js     # Performance measuring
-│   ├── setupTests.js          # Test setup
-│   ├── App.test.js            # App tests
-├── Questionnaire.js           # Main questionnaire logic/component
-├── package.json               # Project dependencies and scripts
-├── package-lock.json          # Exact dependency versions
-├── README.md                  # Project documentation
-├── node_modules/              # Installed npm packages
+├── public/                 # Static assets (HTML, images, icons)
+├── src/                    # Source code
+│   ├── App.js              # App root component
+│   ├── index.js            # Entry point
+│   ├── App.css             # Application styles
+│   ├── index.css           # Base styles
+│   ├── logo.svg            # Logo asset
+│   ├── reportWebVitals.js  # Performance measurement
+│   ├── setupTests.js       # Test setup utility
+│   ├── App.test.js         # Basic app tests
+│   ├── Questionnaire.js    # Main questionnaire component
+├── package.json            # NPM config & dependencies
+├── package-lock.json       # Exact dependency tree
+├── README.md               # Project documentation
+├── node_modules/           # Installed packages
 ```
 
-## **🛠️ Installation Steps**
-## Clone the Repository:
+---
+
+## 🛠️ Installation Steps
+
+### 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/prakriti-identifier.git
 ```
-* Navigate to the project folder:
-  ```bash
-  cd prakriti-identifier
-  ```
-Install dependencies:
+
+### 2. Navigate to the project folder
+```bash
+cd prakriti-identifier
+```
+
+### 3. Install dependencies
 ```bash
 npm install
 ```
 
+---
 
-  npm start
-  ```
+## 🚀 How to Run the Project
 
-- **Open your browser and go to:**
-  ```bash
-  http://localhost:3000
-  ```
+Start the development server:
+```bash
+npm start
+```
 
-- Answer all the questions, click **Submit**, and view your Prakriti Analysis Result instantly.
+Open your browser and go to:
+```
+http://localhost:3000
+```
+
+Answer all questions, click **Submit**, and view your Prakriti Analysis Result instantly!
 
 ---
 
 ## 💡 Technologies Used
 
-- **React.js**
-- **JavaScript** (Functional Components, Hooks)
-- **Custom CSS** for styling
+- ⚛️ **React.js** (Functional Components, Hooks)  
+- 💛 **JavaScript (ES6+)**  
+- 🎨 **Custom CSS** for styling  
 
 ---
 
 ## 📜 License
 
-This project is open-source and available under the **MIT License**.
-
----
+This project is open source and available under the **MIT License**.
